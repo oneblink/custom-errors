@@ -1,4 +1,4 @@
-# Custom Errors [![npm](https://img.shields.io/npm/v/@blinkmobile/custom-errors.svg?maxAge=2592000)](https://www.npmjs.com/package/@blinkmobile/custom-errors)
+# Custom Errors [![npm](https://img.shields.io/npm/v/@blinkmobile/custom-errors.svg?maxAge=2592000)](https://www.npmjs.com/package/@blinkmobile/custom-errors) [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/github/blinkmobile/custom-errors?branch=master&svg=true)](https://ci.appveyor.com/project/blinkmobile/custom-errors) [![Travis CI Status](https://travis-ci.org/blinkmobile/custom-errors.svg?branch=master)](https://travis-ci.org/blinkmobile/custom-errors)
 
 Configuration driven error messages for nodejs.
 

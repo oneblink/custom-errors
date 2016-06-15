@@ -17,7 +17,6 @@
     "npm-run-all": "^2.1.2"
   },
   "directories": {
-    "lib": "lib",
     "test": "test"
   },
   "engines": {
@@ -38,7 +37,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:blinkmobile/custom-errors.git"
+    "url": "git+ssh://git@github.com/blinkmobile/custom-errors.git"
   },
   "scripts": {
     "ava": "ava",
@@ -46,5 +45,9 @@
     "fixpack": "fixpack",
     "make-docs": "jsdoc index.js ./lib -d ./jsdocs",
     "test": "npm-run-all eslint ava fixpack"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }
